@@ -1,5 +1,3 @@
-# I hope this works ok, it did for 5x5 spiral 
-
 base_array = [1]        
 processed_array = [1]
 input_spiral = 501 #501 by 501 spiral  
