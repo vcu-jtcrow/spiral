@@ -35,8 +35,11 @@ def scan_and_add():  # scan the array and add the correct parts up
         diag_result += x  # add it all up, place in diag, this is our result
     return diag_result
 
-def solution():
-    establish_array(input_spiral)
-    print(scan_and_add())
+def spiralize(spiral):
+    establish_array(spiral)
+    solution = scan_and_add()
+    print(solution)
+    return solution
 
-solution()
+
+spiralize(input_spiral)
