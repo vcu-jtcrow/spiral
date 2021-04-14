@@ -1,4 +1,4 @@
-# I hope this works ok, it did for 5x5 spiral :p
+# I hope this works ok, it did for 5x5 spiral 
 
 base_array = [1]        
 processed_array = [1]
