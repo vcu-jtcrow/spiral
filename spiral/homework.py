@@ -6,7 +6,7 @@ input_spiral = 501 #501 by 501 spiral
 
 
 def establish_array(ceiling):  # lets create our array first
-    ceiling *= 5
+    ceiling*=ceiling
     counter = 0
     for x in base_array: 
         counter += 1
